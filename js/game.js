@@ -41,6 +41,7 @@ var game = {
 	"loaded" : function () {
 		me.state.set(me.state.MENU, new game.TitleScreen());
 		me.state.set(me.state.PLAY, new game.PlayScreen());
+		me.state.transition("fade", "#FFFFFF", 250);
 		me.pool.register("mainPlayer",game.PlayerEntity);
 		me.pool.register("CoinEntity",game.CoinEntity);
 		me.pool.register("EnemyEntity",game.EnemyEntity);
@@ -50,6 +51,6 @@ var game = {
 		me.input.bindKey(me.input.KEY.X, "jump",true);
 
 		// Start the game.
-		me.state.change(me.state.PLAY);
+		me.state.change(me.state.MENU);
 	}
 };

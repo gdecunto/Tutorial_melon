@@ -1,6 +1,8 @@
 game.resources = [
 
 	/* Graphics */
+	//menu
+	{name: "title_screen", type:"image", src: "data/img/map/title_screen.png"},
 	//tileset
 	{name: "area01_level_tiles", type:"image", src: "data/img/map/area01_level_tiles.png"},
 	//metatiles

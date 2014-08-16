@@ -81,7 +81,7 @@ game.EnemyEntity=me.ObjectEntity.extend({
 	},
 	onCollision: function(res,obj){
 		if(this.alive&&(res.y>0)&&obj.falling){
-			this.renderable.flicker(750);
+			//this.renderable.flicker(750);
 		}
 	},
 	update:function(dt){

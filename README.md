@@ -35,3 +35,5 @@ Note that you may have to edit the file `Gruntfile.js` if you need to better dic
 -------------------------------------------------------------------------------
 Copyright (C) 2011 - 2013, Olivier Biot, Jason Oster
 melonJS is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
+
+[ ![Codeship Status for gdecunto/Tutorial_melon](https://codeship.io/projects/f8b71c30-11e9-0132-3f9c-3a5e6fc27ab0/status)](https://codeship.io/projects/33152)
